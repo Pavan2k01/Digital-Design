@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANDRAYAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="chandrayan.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="chandrayan1.html">Chandrayan-1</a></li>
+                    <li><a href="chandrayan2.html">Chandrayan-2</a></li>
+                    <li><a href="chandrayan3.html">Chandrayan-3</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Chandrayaan-1</h1>
+    </section>
+    <section class="c1">
+        <div class="row">
+            <div class="c1-col">
+                <h1>About Chandrayaan-1</h1>
+                <p>Chandrayaan-1 was the first Indian lunar probe under the Chandrayaan programme. It was launched by the Indian Space Research Organisation (ISRO) in October 2008, and operated until August 2009. The mission included an orbiter and a MIP. India launched the spacecraft using a PSLV-XL rocket on 22 October 2008 at 00:52 UTC from Satish Dhawan Space Centre, at Sriharikota, Andhra Pradesh. The mission was a major boost to India's space program, as India researched and developed indigenous technology to explore the Moon. The vehicle was inserted into lunar orbit on 8 November 2008. On 14 November 2008, the Moon Impact Probe separated from the Chandrayaan orbiter at 14:36 UTC and struck the south pole in a controlled manner. With this mission, ISRO became the fifth national space agency to reach the lunar surface. Other nations whose national space agencies to have done so prior were the former Soviet Union in 1959, the United States in 1962, Japan in 1993, and ESA member states in 2006. The probe hit near the crater Shackleton at 15:01 UTC. The location of impact was named Jawahar Point.</p>
+                <a href="https://en.wikipedia.org/wiki/Chandrayaan-1" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="c1-col">
+                <img src="images/c1.1.jpg">
+            </div>
+        </div>
+    </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pavan</p>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

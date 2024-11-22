@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANDRAYAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="chandrayan.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="chandrayan1.html">Chandrayan-1</a></li>
+                    <li><a href="chandrayan2.html">Chandrayan-2</a></li>
+                    <li><a href="Chandrayan3.html">Chandrayan-3</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Chandrayan</h1>
+            <p>Wishing Chandrayaan 3 a safe and successful journey to the moon</p>
+            <a href="https://www.isro.gov.in/" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+    <section class="about">
+        <h1>History of Chandrayaan</h1>
+        <p>Evolution of Lunar Spacecraft Programme</p>
+        <div class="row">
+            <div class="about-col">
+                <h3>Programme structure</h3>
+                <p>The Chandrayaan (Indian Lunar Exploration Programme) programme is a multiple mission programme.</p>
+            </div>
+            <div class="about-col">
+                <h3>Orbiter and Impactor</h3>
+                <p>Prime Minister Atal Bihari Vajpayee announced the <b>Chandrayaan</b> project on course in his Independence Day speech on 15 August 2003. The mission was a major boost to India's space program.</p>
+            </div>
+            <div class="about-col">
+                <h3>Soft Landers and Rovers</h3>
+                <p>On 18 September 2008, the First Manmohan Singh Cabinet approved the mission Chandrayan-2. In November 2019, ISRO officials stated that a new lunar lander mission was being studied for launch in November 2020. This new proposal is called Chandrayaan-3</p>
+            </div>
+        </div>
+    </section>
+        <section class="campus">
+            <h1>Launching Centers</h1>
+            <p>Indian Space Research Organisation</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/vssc.jpg">
+                    <div class="layer">
+                        <h3>VSSC-THUMBA</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/rocket.jpg">
+                    <div class="layer">
+                        <h3>LAUNCHBED-SDSC</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/sdsc.jpg">
+                    <div class="layer">
+                        <h3>SDSC-SRIHARIKOTA</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facilities">
+            <h1>Facilities at ISRO</h1>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/prl.jpg">
+                    <h3>Physical Research Laboratory</h3>
+                    <p>Ahmedabad</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/narl.jpg">
+                    <h3>National Administration Research Laboratory</h3>
+                    <p>Tirupati</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/sac.jpg">
+                    <h3>Space Applications Center</h3>
+                    <p>Ahmedabad</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pavan</p>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANDRAYAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="chandrayan.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="chandrayan1.html">Chandrayan-1</a></li>
+                    <li><a href="chandrayan2.html">Chandrayan-2</a></li>
+                    <li><a href="chandrayan3.html">Chandrayan-3</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Chandrayaan-2</h1>
+    </section>
+    <section class="c1">
+        <div class="row">
+            <div class="c1-col">
+                <h1>About Chandrayaan-2</h1>
+                <p>Chandrayaan-2 is the second lunar exploration mission developed by the Indian Space Research Organisation (ISRO), after Chandrayaan-1. It consists of a lunar orbiter, the Vikram lander and the Pragyan rover, all of which were developed in India. The main scientific objective is to map and study the variations in lunar surface composition, as well as the location and abundance of lunar water. The spacecraft was launched from the second launch pad at the Satish Dhawan Space Centre in Andhra Pradesh on 22 July 2019 at 09:13:12 UTC by a LVM3-M1 rocket. The craft reached the lunar orbit on 20 August 2019 and began orbital positioning manoeuvres for the landing of the Vikram lander. The lander and the rover were scheduled to land on the near side of the Moon, in the south polar region at a latitude of about 70° south on 6 September 2019. However, the lander crashed when it deviated from its intended trajectory while attempting to land on 6 September 2019. According to a failure analysis report submitted to ISRO, the crash was caused by a software glitch. ISRO has re-attempted a landing with Chandrayaan-3 which was launched on 14 July 2023 and has successfully landed near the lunar south pole region on 23 August 2023, making India the first nation to accomplish landing on the south pole of the Moon.</p>
+                <a href="https://en.wikipedia.org/wiki/Chandrayaan-2" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="c1-col">
+                <img src="images/c2.jpg">
+            </div>
+        </div>
+    </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pavan</p>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

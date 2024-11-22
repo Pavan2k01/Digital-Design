@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANDRAYAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="chandrayan.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="chandrayan1.html">Chandrayan-1</a></li>
+                    <li><a href="chandrayan2.html">Chandrayan-2</a></li>
+                    <li><a href="chandrayan3.html">Chandrayan-3</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Chandrayaan-3</h1>
+    </section>
+    <section class="c1">
+        <div class="row">
+            <div class="c1-col">
+                <h1>About Chandrayaan-3</h1>
+                <p>Chandrayaan-3 is the third Indian lunar exploration mission under the Indian Space Research Organisation's (ISRO) Chandrayaan programme. It consists of a lander named Vikram and a rover named Pragyan, similar to those of the Chandrayaan-2 mission. The propulsion module carried the lander and rover configuration to lunar orbit in preparation for a powered descent by the lander. Chandrayaan-3 launched on 14 July 2023, and the lander and rover landed near the lunar south pole region on 23 August 2023, making India the first nation to successfully land a spacecraft near the lunar south pole, and the fourth country to soft-land on the Moon.</p>
+                <a href="https://en.wikipedia.org/wiki/Chandrayaan-3" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="c1-col">
+                <img src="images/c3.jpg">
+            </div>
+        </div>
+    </section>
+        <section class="footer">
+            <h4>About Us</h4>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Pavan</p>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
